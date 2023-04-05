@@ -1,0 +1,79 @@
+:root {
+  --hed-burban-color: #071949;
+  --heading-dark-text: #757575;
+  --color-burban-orange: #ff4d00;
+  --heading-text-light: #464646;
+  --background-light-blue: #F5F8FA;
+  --border: 1px solid;
+  --border-color-light: #f8f9fa;
+  --border-color: #A8A8A8;
+  --border-radius: 5px;
+  --font-weight: 600;
+  --background: #FFFFFF;
+  --text-white-color: #FFFFFF;
+  --orange-background-light: rgba(255, 77, 0, 0.2);
+  --box-shadow: 0px 24px 48px -12px rgba(29, 71, 100, 0.06);
+}
+
+.btn-orange {
+  background-color: var(--color-burban-orange);
+  color: var(--text-white-color);
+  border: none;
+  font-weight: var(--font-weight);
+  border-radius: var(--border-radius);
+  font-size: 14px;
+}
+
+.container-login {
+  margin: 0 auto;
+  max-width: 850px;
+  background: var(--background);
+}
+
+h2.login-header {
+  color: var(--hed-burban-color);
+}
+
+.login-title .text-login {
+  color: var(--heading-text-light);
+}
+
+.btn-outline-secondary:hover {
+  color: var(--heading-dark-text);
+  background: var(--background);
+}
+
+.border-clr:focus {
+  box-shadow: none;
+  border-color: var(--border-color);
+}
+
+.google-link {
+  text-decoration: none;
+  color: var(--heading-dark-text);
+}
+
+.google-link:hover {
+  color: var(--heading-dark-text);
+}
+
+.btn-outline-secondary:focus {
+  box-shadow: none;
+}
+
+.reset-p {
+  color: var(--text-white-color);
+  text-decoration: none;
+}
+
+.reset-p:hover {
+  color: var(--text-white-color);
+}
+
+a.orange-color {
+  color: var(--color-burban-orange);
+}
+
+.size {
+  font-size: 14px;
+}
